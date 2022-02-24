@@ -1,11 +1,9 @@
-## simple-react-app
-
-This is a very lightweight react app for testing libraries and components outside of your large codebase.
+## simple-cart
 
 ## set-up
 
-`git clone https://github.com/kevinjmosley93/simple-react-app.git`
+`git clone https://github.com/kevinjmosley93/simple-react-cart.git`
 `npm i`
 `npm start`
 
-![home-page](src/assets/frontpage.png)
+view live [here](https://simple-cart.kevinjmosley.com)
