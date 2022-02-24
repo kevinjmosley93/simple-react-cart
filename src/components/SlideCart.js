@@ -12,12 +12,12 @@ export const SlideCart = ({ cart }) => {
       </div>
       <div className="slide-cart__items">
         {cart.cartItems.length > 0 ? (
-          cart.cartItems.map((item) => (
-            <>
+          cart.cartItems.map((item, idx) => (
+            <span key={idx}>
               <p>{item.title}</p>
               <p>qty:{item.qty}</p>
               <p>${item.price}</p>
-            </>
+            </span>
           ))
         ) : (
           <div>No items in cart</div>
